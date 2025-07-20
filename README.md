@@ -41,11 +41,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/rl-ipd-project.git
-    cd rl-ipd-project
+    gh repo clone Pirata-Codex/evolution-of-trust-rl
+    cd evolution-of-trust-rl
     ```
-    *(Replace `your-username/rl-ipd-project.git` with your actual repository URL)*
-
+    
 2.  **Install dependencies:**
     The project uses `numpy`, `matplotlib`, and `pandas`. These can be installed using the `requirements.txt` file.
     ```bash
