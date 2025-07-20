@@ -111,6 +111,8 @@ This plot shows the cumulative score of the Q-Learner during its training episod
 **Analysis of Training Progress:**
 The cumulative score of the Q-Learner fluctuates significantly throughout the 2000 training episodes. This high variability is typical when an RL agent is exploring and learning against a diverse set of opponents, some cooperative and some exploitative. The absence of a consistent upward trend to a stable high score suggests that while the Q-Learner is learning, its hyperparameters (learning rate, discount factor, epsilon decay) or the complexity of its state representation might need further fine-tuning to achieve more consistent optimal behavior against a varied opponent pool.
 
+<img width="1200" height="700" alt="Figure_1" src="https://github.com/user-attachments/assets/984a44fc-801d-43e9-b5b8-2546c1b265c2" />
+
 -----
 
 ### Single Match Example: QLearner vs TitForTat
@@ -120,6 +122,7 @@ This plot illustrates the cumulative scores of the trained Q-Learner and the Tit
 **Analysis of Single Match:**
 In this specific match against TitForTat, both the Q-Learner and TitForTat show a near-perfect linear increase in their cumulative scores, and their lines are almost identical. This is a strong indicator of **mutual cooperation** throughout the match. This outcome is highly desirable in the Iterated Prisoner's Dilemma, demonstrating that the Q-Learner successfully learned to reciprocate cooperation when paired with a forgiving yet firm strategy like TitForTat.
 
+<img width="1000" height="600" alt="Figure_2" src="https://github.com/user-attachments/assets/a6a5c837-4289-4034-82a7-3fac21bd8a9c" />
 -----
 
 ### Overall Average Scores Per Strategy (Higher is Better)
